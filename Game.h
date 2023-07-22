@@ -71,6 +71,8 @@ public:
 		}
 		else if (ReturnTouch(snakeHead)->objectName == "Snake") return false; //Game over
 
+		if (lastObjectNumber >= maxObjectsCount) return false; //If snake is very long
+
 		return true; //Continue
 	}
 private:
