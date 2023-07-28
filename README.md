@@ -1,1 +1,2 @@
 # ConsoleSnake
+![](/Snake.gif)
